@@ -4,7 +4,7 @@
 
 It provides a third-party extension point between dispatching an action, and the moment it reaches the reducer. People use Redux middleware for logging, crash reporting, talking to an asynchronous API, routing, and more.
 
-![redux middleware image](/1_LXvfJLM7DzJ8uxxC5xRDYg.png)
+![redux middleware image](/images/1_LXvfJLM7DzJ8uxxC5xRDYg.png)
 
 ```
 const customMiddleware = function(store) {

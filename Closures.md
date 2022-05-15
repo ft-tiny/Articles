@@ -159,7 +159,6 @@ bar = null; // ...and now the memory is cleaned up
 ## JavaScript Closure examples
 
 JavaScript closures in a loop
-
 ```
 for (var i = 0; i < 3; i++) {
   setTimeout(function () {
@@ -172,7 +171,6 @@ for (var i = 0; i < 3; i++) {
 ```
 
 Using the IIFE solution or passing parameter to a callback function
-
 ```
 for (var i = 0; i < 3; i++) {
   (function (i) {
@@ -193,7 +191,6 @@ for (var i = 0; i < 3; i++) {
 ```
 
 Using let keyword in ES6
-
 ```
 for (let i = 0; i < 3; i++) {
   setTimeout(function () {
@@ -206,7 +203,6 @@ for (let i = 0; i < 3; i++) {
 ```
 
 Private methods with closures
-
 ```
 var counter = (function() {
   var privateCounter = 0;

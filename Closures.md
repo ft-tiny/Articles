@@ -32,7 +32,8 @@ This is an example of _lexical_ _scoping_, which describes how a parser resolves
 
 - **Static scope** refers to a piece of code whose scope has been determined before it is executed.
 - **Dynamic Scope** – The scope of a function is determined when a function is called.
-  JavaScript uses lexical scope, that is static scope.
+
+JavaScript uses lexical scope, that is static scope.
 
 ```
 // Static scopes:

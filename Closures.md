@@ -13,7 +13,7 @@ For example:
 
 ```
 function outer() {
-  var name = 'test'; // name is a local variable created by init
+  var name = 'test'; // name is a local variable created by outer
   function inner() { // inner() is the inner function, a closure
     console.log(name); // use variable declared in the parent function
   }
